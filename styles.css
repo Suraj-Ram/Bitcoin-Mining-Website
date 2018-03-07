@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
+.bar-item {
+    display: inline;
+    float: left;
+    width: 20%;
+}
+
+.bar-link {
+    display: block;
+    padding: 10px;
+    background-color: #ff9100;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 2.5 0 2.5;
+    border-radius: 5px;
+}
+.bar-link:hover {
+    background-color: #faac45;  
+}
+
+#active-page {
+    background-color: #ffbd29;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    color: #ff9100;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #ffec7e;
+}
+.sources-link {
+    color: black;
+    text-decoration: underline;
+}
+.sources-link:hover {
+    color: #6783d1;
+}
+.page-title {
+    font-size: 48px;
+    font-weight: 400;
+}
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.h-page-title {
+    font-size: 5em;
+}
+.h-page-desc {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.main-content-1 {
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #ffee89;
+}
