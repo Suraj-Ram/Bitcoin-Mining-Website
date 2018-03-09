@@ -1,3 +1,4 @@
+/*$$$$$$$$$$C-MONEY$$$$$$$$$$*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
 .bar-item {
     display: inline;
@@ -16,7 +17,8 @@
     border-radius: 5px;
 }
 .bar-link:hover {
-    background-color: #faac45;  
+    background-color: #faac45;
+    color: white;
 }
 
 #active-page {
@@ -28,7 +30,7 @@ h1 {
 }
 h2 {
     font-weight: bold;
-    color: #ff9100;
+    color: #1c8b13;
 }
 p {
     font-family: "Open Sans", sans-serif;
@@ -42,8 +44,17 @@ body {
     text-decoration: underline;
 }
 .sources-link:hover {
-    color: #6783d1;
+    color: #ff9100;
 }
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ff9100;
+}
+
 .page-title {
     font-size: 48px;
     font-weight: 400;
@@ -64,4 +75,54 @@ ul {
     margin-left: 7%;
     margin-right: 7%;
     background-color: #ffee89;
+}
+
+/*Footer*/
+#footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #ffbd29;
+    color: dimgray;
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+}
+    
+.footer-link {
+/*    color: #3b5bb2;*/
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.footer-link:hover {
+    color: #6783d1;
+}
+
+
+.copyright {
+    font-size: 12px;
+    padding-top: 1px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.code-link {
+    color: dimgray;
+    text-decoration: underline;
+}
+.code-link:hover {
+    color: #6783d1;
+}
+
+.footer-desc {
+    margin-top: 1px;
+    padding-top: 0;
+}
+
+
+
+
+.profit-calc {
+    
 }
